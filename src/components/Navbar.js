@@ -11,7 +11,7 @@ import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
+  AiOutlineUser, AiOutlineGateway,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -76,7 +76,7 @@ function NavBar() {
                   to="/education"
                   onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <AiOutlineGateway
                     style={{ marginBottom: "2px" }}
                 />{" "}
                 Education
