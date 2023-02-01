@@ -1,11 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import junglee from "./junglee-logo.jpeg"
-import ExperienceCard from "./Experiencecard";
 import ExperienceCard2 from "./ExperienceCard2";
-import Card from "react-bootstrap/Card";
-let description = ["MyExperience1", "MyExperience2", "MyExperience3"]
 function Experience() {
 
     const experience =
@@ -23,7 +19,7 @@ function Experience() {
                title: "Backend TA",
                company: "Crio.Do",
                company_url: "crio.do",
-               logo_path: 'junglee-logo.jpeg',
+               logo_path: 'criodo-logo.png',
                duration: "Dec 2021 - May 2022",
                location: "Banglore",
                description: "Backend Development ",

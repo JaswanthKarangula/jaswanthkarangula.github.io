@@ -23,6 +23,7 @@ function Techstack() {
         </Col>
         <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
+            {/*<p style={{fontSize:'15px'}}>Hi hello</p>*/}
       </Col>
         <Col xs={4} md={2} className="tech-icons">
             <SiSpringboot />

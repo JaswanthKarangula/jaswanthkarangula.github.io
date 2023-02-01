@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Skills from "./Skills";
 
 function About() {
   return (
@@ -37,6 +38,9 @@ function About() {
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
+
+        <h1> Writing Skills </h1>
+        <Skills/>
 
         <Techstack />
 

@@ -1,23 +1,11 @@
 import React, { Component } from "react";
 import "./ExperienceCard.css";
-import junglee from "./junglee-logo.jpeg"
 
 
 class ExperienceCard2 extends Component {
 
     render() {
         const experience = this.props.experience
-            // {
-				// 	title: "Backend Engineer",
-				// 	company: "Junglee Games",
-				// 	company_url: "jungleegames.com",
-				// 	logo_path: 'junglee-logo.jpeg',
-				// 	duration: "Dec 2021 - May 2022",
-				// 	location: "Banglore",
-				// 	description: "Backend Development ",
-				// 	color: "#0879bf"
-				// }
-
 
 
 
