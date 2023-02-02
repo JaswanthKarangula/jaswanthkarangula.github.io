@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-
+import {chosenTheme} from "../../Theem"
 export default class DesignImg extends Component {
   render() {
-    const theme = this.props.theme;
+    const theme = chosenTheme;
     return (
       <svg
         id="1c51936f-ad83-4493-a1e8-5a7ca1846cda"

@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import {chosenTheme} from "../../Theem"
 
 export default class CloudInfraImg extends Component {
   render() {
-    const theme = this.props.theme;
+    const theme = chosenTheme;
     return (
       <svg
         id="1dff4cb4-53bd-4ffc-acc1-5e8a2ceb72de"

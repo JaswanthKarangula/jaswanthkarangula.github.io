@@ -6,9 +6,68 @@ import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
+import BackendImg from "./BackendImg";
 
 const skills = {
     data: [
+        {
+            title: "Backend Development / Distributed Systems",
+            fileName: "DesignImg",
+            skills: [
+                "⚡ Working on highly scalable Backend and Distributed Systems",
+                "⚡ Designing and Implementing Backend for various side Projects from scratch",
+                "⚡ Flexible working with multiple tech stacks ",
+            ],
+            softwareSkills: [
+                {
+                    skillName: "Go Lang",
+                    fontAwesomeClassname: "vscode-icons:file-type-go-gopher",
+                    style: {
+                        color: "#87CEEB",
+                    },
+                },
+                {
+                    skillName: "Spring Boot",
+                    fontAwesomeClassname: "simple-icons:springboot",
+                    style: {
+                        color: "#00FF00",
+                    },
+                },
+                {
+                    skillName: "MongoDB",
+                    fontAwesomeClassname: "logos:mongodb-icon",
+
+                },
+                {
+                    skillName: "PostgreSQL",
+                    fontAwesomeClassname: "logos:postgresql",
+                },
+                {
+                    skillName: "Redis",
+                    fontAwesomeClassname: "skill-icons:redis-light",
+                },
+                {
+                    skillName: "Kafka",
+                    fontAwesomeClassname: "logos:kafka-icon",
+                },
+                {
+                    skillName: "Docker",
+                    fontAwesomeClassname: "vscode-icons:file-type-docker2",
+                },
+
+                {
+                    skillName: "Kubernetes",
+                    fontAwesomeClassname: "skill-icons:kubernetes",
+                },
+
+                {
+                    skillName: "Node.js",
+                    fontAwesomeClassname: "logos:nodejs",
+                },
+
+
+            ],
+        },
         {
             title: "Data Science & AI",
             fileName: "DataScienceImg",
@@ -34,8 +93,8 @@ const skills = {
                     },
                 },
                 {
-                    skillName: "PyTorch",
-                    fontAwesomeClassname: "logos-pytorch",
+                    skillName: "Flask",
+                    fontAwesomeClassname: "simple-icons:flask",
                     style: {
                         backgroundColor: "transparent",
                     },
@@ -200,57 +259,18 @@ const skills = {
                 },
             ],
         },
-        {
-            title: "UI/UX Design",
-            fileName: "DesignImg",
-            skills: [
-                "⚡ Designing highly attractive user interface for mobile and web applications",
-                "⚡ Customizing logo designs and building logos from scratch",
-                "⚡ Creating the flow of application functionalities to optimize user experience",
-            ],
-            softwareSkills: [
-                {
-                    skillName: "Adobe XD",
-                    fontAwesomeClassname: "simple-icons:adobexd",
-                    style: {
-                        color: "#FF2BC2",
-                    },
-                },
-                {
-                    skillName: "Figma",
-                    fontAwesomeClassname: "simple-icons:figma",
-                    style: {
-                        color: "#F24E1E",
-                    },
-                },
-                {
-                    skillName: "Adobe Illustrator",
-                    fontAwesomeClassname: "simple-icons:adobeillustrator",
-                    style: {
-                        color: "#FF7C00",
-                    },
-                },
-                {
-                    skillName: "Inkscape",
-                    fontAwesomeClassname: "simple-icons:inkscape",
-                    style: {
-                        color: "#000000",
-                    },
-                },
-            ],
-        },
     ],
 };
 
 function GetSkillSvg(props) {
-    // if (props.fileName === "DataScienceImg")
-    //     return <DataScienceImg  />;
-    // else if (props.fileName === "FullStackImg")
-    //     return <FullStackImg  />;
-    // else if (props.fileName === "CloudInfraImg")
-    //     return <CloudInfraImg/>;
-    // return <DesignImg  />;
-    return <div>Img</div>
+     if (props.fileName === "DataScienceImg")
+         return <DataScienceImg  />;
+    else if (props.fileName === "FullStackImg")
+        return <FullStackImg  />;
+    else if (props.fileName === "CloudInfraImg")
+        return <CloudInfraImg/>;
+    return <BackendImg  />;
+    // return <div>Img</div>
 }
 
 class SkillSection extends Component {
