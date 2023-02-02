@@ -17,7 +17,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Education from "./components/Education/educatioin";
+import Educations from "./components/Education/Educations";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -42,7 +42,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/experience" element={<Experience />} />
-          <Route path="/education" element={<Education />} />
+          <Route path="/education" element={<Educations />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
