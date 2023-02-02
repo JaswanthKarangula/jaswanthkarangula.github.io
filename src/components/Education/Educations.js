@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Education.css";
+import "./Educations.css";
 import { Container, Row, Col } from "react-bootstrap";
 import DegreeCard from "./DegreeCard";
 import { Fade } from "react-reveal";
@@ -41,9 +41,7 @@ class Educations extends Component {
     render() {
         return (
 
-            <Container fluid className="about-section">
-                <Particle />
-                <Container>
+
 
                     <div className="main" id="educations">
                         <div className="educations-header-div">
@@ -61,8 +59,7 @@ class Educations extends Component {
                             })}
                         </div>
                     </div>
-                </Container>
-            </Container>
+
 
 
         );
