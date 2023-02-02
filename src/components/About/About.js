@@ -7,6 +7,9 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Skills from "./Skills";
+import fullstackAnimation from "./fullstackanimation.json"
+import DisplayLottie from "../Lottie/DisplayLottie";
+import softwareDev from "../Home/software-development-animation.json";
 
 function About() {
   return (
@@ -32,28 +35,29 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+              <DisplayLottie animationData={fullstackAnimation} />
           </Col>
         </Row>
 
         <Skills/>
 
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
+        {/*<h1 className="project-heading">*/}
+        {/*  Professional <strong className="purple">Skillset </strong>*/}
+        {/*</h1>*/}
 
-        <h1> Writing Skills </h1>
+        {/*<h1> Writing Skills </h1>*/}
 
 
-        <Techstack />
+        {/*<Techstack />*/}
 
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
+        {/*<h1 className="project-heading">*/}
+        {/*  <strong className="purple">Tools</strong> I use*/}
+        {/*</h1>*/}
+        {/*<Toolstack />*/}
 
         <Github />
       </Container>
+
     </Container>
   );
 }
