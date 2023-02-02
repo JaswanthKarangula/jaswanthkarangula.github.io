@@ -1,45 +1,31 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+
+[//]: # (  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>)
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+
+[//]: # (  <img alt="Demo" src="./Images/readme-img1.png" />)
 </div>
 
 <br/>
 
 <center>
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
-
 </center>
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
 
-## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
 
 ## Built With
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://jaswanth.vercel.app/" target="_blank">Jaswanth</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
 - React.js
-- Node.js
-- Express.js
 - CSS3
-- VsCode
+- WebStorm
 - Vercel
 
 ## Features
@@ -50,15 +36,37 @@ This project was built using these technologies.
 
 **📱 Fully Responsive**
 
-## Getting Started
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+
+## Sections 📚
+
+✔️ Summary and About me\
+✔️ Skills \
+✔️ Open Source Projects Connected with Github\
+✔️ Experience\
+✔️ Certifications 🏆\
+✔️ Blogs\
+✔️ Education\
+✔️ Contact me
+
+To view a live example, **[click here](https://jaswanthkarangula.github.io/)**
 
 ## 🛠 Installation and Setup Instructions
 
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
+- The website is completely built on `react-js` library of `javascript` and that's why we need `nodejs` and `npm` installed
+- While installing `nodejs` and `npm`, try to install versions which are equal or greater than the versions mentioned in badges above
+- In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page
+- After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
+  ```bash
+   git clone https://github.com/ashutosh1919/masterPortfolio.git
+  ```
+  This will clone the whole repository in your system.
+- To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
+  ```node
+  npm install
+  ```
+- Now the project is ready to use
+- You can check it using `npm start`, it will open the website locally on your browser.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -69,8 +77,9 @@ The page will reload if you make edits.
 Open the project folder and Navigate to `/src/components/`. <br/>
 You will find all the components used and you can edit your information accordingly.
 
-### Show your support
+## Deployment 📦
 
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+- Once you are done with your setup and have successfully completed all steps above, you need to put your website online!
+- I highly recommend using [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to achieve this the EASIEST WAY.
+- To deploy your website, you have two options. First you need to create a github repository with the name `<your-github-username>.github.io`. Please don't give it any other name.
+- Now, you need to generate a production build and deploy the website.
