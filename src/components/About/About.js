@@ -2,14 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
-import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
 import Skills from "./Skills";
 import fullstackAnimation from "./fullstackanimation.json"
 import DisplayLottie from "../Lottie/DisplayLottie";
-import softwareDev from "../Home/software-development-animation.json";
 
 function About() {
   return (
