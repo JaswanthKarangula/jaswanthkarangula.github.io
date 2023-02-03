@@ -41,8 +41,6 @@ class Educations extends Component {
     render() {
         return (
 
-
-
                     <div className="main" id="educations">
                         <div className="educations-header-div">
                             <Fade bottom duration={2000} distance="20px">

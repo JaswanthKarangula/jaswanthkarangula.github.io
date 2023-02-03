@@ -10,7 +10,7 @@ class Education extends Component {
     render() {
         return (
 
-            <Container >
+            <div className={"project-section"} >
                 <Particle />
 
                 {/*<Row style={{ justifyContent: "center", padding: "10px" }}>*/}
@@ -53,7 +53,7 @@ class Education extends Component {
                     <Educations/>
 
                 </Container>
-            </Container>
+            </div>
 
 
         );
