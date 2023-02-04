@@ -10,6 +10,8 @@ import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
+
+
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -21,6 +23,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -91,6 +94,8 @@ function Projects() {
       </Container>
     </Container>
   );
+
+
 }
 
 export default Projects;
