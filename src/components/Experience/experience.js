@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import ExperienceCard2 from "./ExperienceCard2";
+import Timeline from "./verticaltimeline/VerticleTimeLineExp";
 function Experience() {
 
     const experience =
@@ -60,9 +61,10 @@ function Experience() {
                 <p style={{ color: "white" }}>
                     Here are a few Experience  I've worked on recently.
                 </p>
-                    {
-                        getExperiences(experience)
-                    }
+                    {/*{*/}
+                    {/*    getExperiences(experience)*/}
+                    {/*}*/}
+                    <Timeline> </Timeline>
 
 
 
