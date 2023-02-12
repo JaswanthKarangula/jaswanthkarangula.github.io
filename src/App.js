@@ -20,6 +20,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Education from "./components/Education/Education";
 import TempExperience from "./components/Experience/Temp/TempExperience";
+import Timeline from "./components/Experience/verticaltimeline/VerticleTimeLineExp";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -45,6 +46,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/experience" element={ <div> <TempExperience /> <Experience /> </div> } />
           <Route path="/education" element={<div> <TempEducation /> <Education/> </div>} />
+          <Route path = "/test" element={ <Timeline/> }/>
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
