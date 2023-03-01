@@ -14,21 +14,17 @@ class TempExperience extends Component {
                     <Fade bottom duration={2000} distance="40px">
                         <div className="heading-div">
 
-
-                            <div className="heading-img-div">
-
-                                <DisplayLottie animationData={exp} />
+                            <div className="heading-img-div lottie-card-view">
+                                <DisplayLottie  animationData={exp} />
                             </div>
-
 
                             <div className="heading-text-div">
-                                <h1 className="heading-text" >
+                                <Fade bottom duration={2000} distance="20px">
+                                <h1 className="heading-text"  style={{ color: "white" }}>
                                     Experience
                                 </h1>
-
-
+                                </Fade>
                             </div>
-
 
                         </div>
                     </Fade>

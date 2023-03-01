@@ -14,21 +14,22 @@ class TempEducation extends Component {
                 <div className="basic-education">
                     <Fade bottom duration={2000} distance="40px">
                         <div className="heading-div">
-
-
-                            <div className="heading-img-div">
+                            <div className="heading-img-div lottie-card-view ">
 
                                 <DisplayLottie animationData={edu} />
                             </div>
 
-
                             <div className="heading-text-div">
-                                <h1 className="heading-text" >
+                                <Fade top duration={2000} distance="20px">
+                                <h1 className="heading-text" style={{ color: "white" }} >
                                     Education
                                 </h1>
-                                <h3 className="heading-sub-text" >
+                                </Fade>
+                                <Fade bottom duration={2000} distance="20px">
+                                <h3 className="heading-sub-text" style={{ color: "white" }} >
                                     Basic Qualification and Certifcations
                                 </h3>
+                                </Fade>
 
                             </div>
 

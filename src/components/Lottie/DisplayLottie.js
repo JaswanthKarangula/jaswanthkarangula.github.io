@@ -1,6 +1,8 @@
 import React, {Component, Suspense} from "react";
 import Lottie from "react-lottie";
 import Loading from "./Loading";
+import "./lottie.css"
+
 
 export default class DisplayLottie extends Component {
     render() {
@@ -13,7 +15,9 @@ export default class DisplayLottie extends Component {
 
         return (
             <Suspense fallback={<Loading />}>
+
                 <Lottie options={defaultOptions} isClickToPauseDisabled={true} />
+
             </Suspense>
         );
     }
