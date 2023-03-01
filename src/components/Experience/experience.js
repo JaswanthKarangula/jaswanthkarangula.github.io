@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import ExperienceCard2 from "./ExperienceCard2";
 import Timeline from "./verticaltimeline/VerticleTimeLineExp";
+import { Fade } from "react-reveal";
+
 function Experience() {
 
     const experience =
@@ -56,11 +58,13 @@ function Experience() {
                 <Particle />
                 <Container>
                 <h1 className="experience-heading">
-                    My  <strong className="purple">Experience </strong>
+                    My  <strong className="purple"  >Experience </strong>
                 </h1>
+                    <Fade bottom duration={2000} distance="20px">
                 <p style={{ color: "white" }}>
                     Here are a few Experience  I've worked on recently.
                 </p>
+                    </Fade>
                     {/*{*/}
                     {/*    getExperiences(experience)*/}
                     {/*}*/}

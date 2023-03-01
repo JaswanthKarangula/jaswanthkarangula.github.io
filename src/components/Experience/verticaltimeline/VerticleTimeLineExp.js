@@ -43,7 +43,8 @@ const Timeline = ({  }) => {
             data.slice(0,2).map((item) => {
                 return (
                     <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
+                        textClassName="vertical-timeline-element--work"
+                        contentStyle={{ background: 'rgba(119, 53, 136, 0.459)', color: 'white' , boxShadow: '0 4px 5px 3px rgba(119, 53, 136, 0.459)' }}
                         date={item.years}
                         icon={<img className="company-logo" style={{ borderRadius: "50%" }} src={"images/" + item.logo} alt="Company Logo" />}
                         iconOnClick={() => window.open(item.url)}
@@ -65,8 +66,9 @@ const Timeline = ({  }) => {
             data.slice(counter, counter + 2).map((item) => {
                 return (
                     <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
+                        textClassName="vertical-timeline-element--work"
                         date={item.years}
+                        contentStyle={{ background: 'rgba(119, 53, 136, 0.459)', color: 'white' , boxShadow: '0 4px 5px 3px rgba(119, 53, 136, 0.459)' }}
                         icon={<img className="company-logo" style={{ borderRadius: "50%" }} src={"images/" + item.logo} alt="Company Logo" />}
                         iconOnClick={() => window.open(item.url)}
                     >
@@ -92,7 +94,7 @@ const Timeline = ({  }) => {
             {length <= counter ?
                 null :
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
+                    textClassName="vertical-timeline-element--work"
                     iconStyle={{ background: '#11ABB0', color: '#fff' }}
                     icon={<BsPlusLg />}
                     iconOnClick={() => {
