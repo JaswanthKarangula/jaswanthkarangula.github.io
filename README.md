@@ -50,7 +50,7 @@ To view a live example, **[click here](https://jaswanthkarangula.github.io/)**
   ```
   This will clone the whole repository in your system.
 - To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
-  ```node
+  ```
   npm install
   ```
 - Now the project is ready to use
@@ -71,3 +71,7 @@ You will find all the components used and you can edit your information accordin
 - I highly recommend using [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to achieve this the EASIEST WAY.
 - To deploy your website, you have two options. First you need to create a github repository with the name `<your-github-username>.github.io`. Please don't give it any other name.
 - Now, you need to generate a production build and deploy the website.
+``` 
+npm run deploy
+```
+
