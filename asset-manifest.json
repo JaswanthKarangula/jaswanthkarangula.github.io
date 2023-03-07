@@ -1,15 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.c8f6dcd6.css",
-    "main.js": "/static/js/main.1ed729eb.js",
+    "main.js": "/static/js/main.cd99d9dd.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
-    "static/media/emotion.png": "/static/media/emotion.eabfc16e7a146ab15778.png",
-    "static/media/suicide.png": "/static/media/suicide.9c86cd7138a398c45fa5.png",
-    "static/media/codeEditor.png": "/static/media/codeEditor.1b585492490c8c1cace9.png",
-    "static/media/blog.png": "/static/media/blog.fb8ab7f271a937d5fc01.png",
-    "static/media/chatify.png": "/static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/qmoney.gif": "/static/media/qmoney.05cf0dc105261a8b53da.gif",
+    "static/media/qeats.png": "/static/media/qeats.340b6e7baaded5f2e885.png",
+    "static/media/fruits-vegetables.png": "/static/media/fruits-vegetables.bbf499914f197df17f0d.png",
+    "static/media/iot.png": "/static/media/iot.9a9969f30476b5106cd9.png",
+    "static/media/portfolio.png": "/static/media/portfolio.fbb54c7d8c731df22dda.png",
     "static/media/Soumyajit_Behera-BIT_MESRA.pdf": "/static/media/Soumyajit_Behera-BIT_MESRA.bbcb2cb6b9e727b164f6.pdf",
     "static/media/google-logo.jpg": "/static/media/google-logo.6f6a07046fad3271bde7.jpg",
     "static/media/logo.png": "/static/media/logo.b3966080267b8a8eef98.png",
@@ -17,12 +16,12 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.c8f6dcd6.css.map": "/static/css/main.c8f6dcd6.css.map",
-    "main.1ed729eb.js.map": "/static/js/main.1ed729eb.js.map",
+    "main.cd99d9dd.js.map": "/static/js/main.cd99d9dd.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8f6dcd6.css",
-    "static/js/main.1ed729eb.js"
+    "static/js/main.cd99d9dd.js"
   ]
 }
