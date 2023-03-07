@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import iot from "../../Assets/Projects/iot.png";
+import iot from "../../Assets/Projects/iot.gif";
 import qmoney from "../../Assets/Projects/qmoney.gif"
 import fruits from "../../Assets/Projects/fruits-vegetables.png"
-import qeats from "../../Assets/Projects/qeats.png"
+import qeats from "../../Assets/Projects/qeats.gif"
 import portfolio from "../../Assets/Projects/portfolio.png"
 
 
