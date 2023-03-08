@@ -484,6 +484,13 @@ button:focus {
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
 
+.project-card-image{
+  height: auto;
+  max-height: 450px;
+  width: auto;
+  max-width: 450px;
+  text-align: center;
+}
 
 .lottie-card-view:hover {
   transform: scale(1.02) !important;
