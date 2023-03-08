@@ -1,5 +1,5 @@
 import iot from "./Assets/Projects/iot.gif";
-import fruits from "./Assets/Projects/fruits-vegetables.png";
+import fruits from "./Assets/Projects/fruits-vegetables.gif";
 import qeats from "./Assets/Projects/qeats.gif";
 import qmoney from "./Assets/Projects/qmoney.gif";
 import portfolio from "./Assets/Projects/portfolio.png";
@@ -10,23 +10,26 @@ const proj = [
         isBlog: false,
         title: "Smart Gym Management System",
         description : "",
-        ghLink : "https://github.com/soumyajit4419/Chatify",
-        demoLink : "https://chatify-49.web.app/",
+        ghLink : "",
+        demoLink : "",
     },
     {
         imgPath: iot,
         isBlog: false,
         title: "Smart Meter Management System",
-        description : "Built an IoT based Smart Meter Management System using React.js Node.js MongoDB MySql and AWS IoT Simulator and Deployed it in AWS",
+        description : "A SaaS Application using which we can manage IoT devices and Smart meters. " +
+            "Contains Monitor&Tracking, Configuration, User Management, Billing Component, etc." +
+            " Built using MERN stack, AWS, kubernetes, Docker, Multi-threading.",
         ghLink : "https://github.com/JaswanthKarangula/IoT-Smart-Meter-Management-System-UI",
-        demoLink : "",
+        demoLink : "https://drive.google.com/file/d/1croGA0fQrlG02uGJIe6MgmKk2T5ZcGgW/view?usp=sharing",
     },
     {
         imgPath: fruits,
         isBlog: false,
         title: "Fruits-Vegetables Classification",
         description : "Used the plant Fruits-Vegetables dataset from Kaggle and trained a image classifier model using Tensorflow framework." +
-            "The model was successfully able to detect the class of fruits/vegetables and deployed it using Tensorflow Serving and Flask . I was able to achieve an accuracy of 98% by using Resnet pretrained model.",
+            "The model was successfully able to detect the class of fruits/vegetables and deployed it using Tensorflow Serving and Flask . " +
+            "I was able to achieve an accuracy of 98% by using Resnet pretrained model.",
         ghLink : "https://github.com/JaswanthKarangula/Fruits-and-Vegetable-Classification",
         demoLink : "",
     },
@@ -34,7 +37,10 @@ const proj = [
         imgPath: qeats,
         isBlog: false,
         title: "QEats",
-        description : "Built a Backend system for a food ordering app ",
+        description : "Built a Backend system for a food ordering app using Spring Boot and MongoDB " +
+            "Used Redis Cache for retrieving repeated restaurants data from MongoDB quickly " +
+            "Implemented Search functionality " +
+            "and  post order actions, placing email, assigning delivery agent  with RabbitMQ.",
         ghLink : "https://github.com/jaswanthkarangula/qeats",
         demoLink : "",
     },
@@ -44,7 +50,7 @@ const proj = [
         title: "QMoney",
         description : "Implemented core logic of portfolio manager application, helps managers make recommendations to clients.",
         ghLink : "https://github.com/jaswanthkarangula/qmoney",
-        demoLink : "",
+        demoLink : "https://drive.google.com/file/d/1W5XEgDej3AZDY1gUMuH_zD7wgtRj36K1/view?usp=sharing",
     },
     {
         imgPath: portfolio,
