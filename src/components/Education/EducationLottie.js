@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Educations from "../Educations";
-import "../Education.css";
+import Educations from "./Educations";
+import "./Education.css";
 import { Fade } from "react-reveal";
-import edu from "../education.json";
-import DisplayLottie from "../../Lottie/DisplayLottie";
+import edu from "./education.json";
+import DisplayLottie from "../Lottie/DisplayLottie";
 
-class TempEducation extends Component {
+class EducationLottie extends Component {
     render() {
 
         return (
@@ -26,9 +26,9 @@ class TempEducation extends Component {
                                 </h1>
                                 </Fade>
                                 <Fade bottom duration={2000} distance="20px">
-                                <h3 className="heading-sub-text" style={{ color: "white" }} >
-                                    Basic Qualification and Certifcations
-                                </h3>
+                                {/*<h3 className="heading-sub-text" style={{ color: "white" }} >*/}
+                                {/*    Basic Qualification and Certifcations*/}
+                                {/*</h3>*/}
                                 </Fade>
 
                             </div>
@@ -43,4 +43,4 @@ class TempEducation extends Component {
     }
 }
 
-export default TempEducation;
+export default EducationLottie;

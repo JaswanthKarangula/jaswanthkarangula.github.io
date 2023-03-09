@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import { Fade } from "react-reveal";
-import exp from "../experience-updated.json"
-import DisplayLottie from "../../Lottie/DisplayLottie";
+import exp from "./experience-updated.json"
+import DisplayLottie from "../Lottie/DisplayLottie";
 
 
-class TempExperience extends Component {
+class ExperienceLottie extends Component {
     render() {
 
         return (
-            <div className="education-main">
+
+             <div className="education-main">
 
                 <div className="basic-education">
                     <Fade bottom duration={2000} distance="40px">
@@ -31,8 +32,9 @@ class TempExperience extends Component {
 
                 </div>
             </div>
+
         );
     }
 }
 
-export default TempExperience;
+export default ExperienceLottie;

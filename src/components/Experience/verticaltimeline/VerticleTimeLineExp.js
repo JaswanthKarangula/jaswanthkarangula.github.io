@@ -2,45 +2,15 @@ import React, { useState } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import './Timeline.css'
 import 'react-vertical-timeline-component/style.min.css';
-
+import {experience} from "../../../data";
 import { BsPlusLg } from "react-icons/bs";
-const data = [
-    {
 
-        "company": "Junglee Games",
-        "title": "Software Engineer Backend",
-        "years": "Dec 201 - May 2022",
-        "location": "India",
-        "description": "Backend",
-        "logo": "junglee-logo.jpeg",
-        "url": "jungleegames.com"
-
-    },
-    {
-        "company": "Crio.Do",
-        "title": "Backend TA",
-        "years": "Dec 2021 - May 2022",
-        "location": "Banglore",
-        "description": "Backend Development",
-        "logo": "criodo-logo.png",
-        "url": "crio.do"
-    },
-    {
-        "company": "Zoho Corp",
-        "title": "Software Engineer Intern",
-        "years": "Dec 2021 - May 2022",
-        "location": "Banglore",
-        "description": "Backend Development",
-        "logo": "zoho-logo.png",
-        "url": "zoho.com"
-    },
-]
 const Timeline = ({  }) => {
-    let length = data.length;
+    let length = experience.length;
     const [counter, setCounter] = useState(2);
     const [elements, setElements] = useState(
         [
-            data.slice(0,2).map((item) => {
+            experience.slice(0,2).map((item) => {
                 return (
                     <VerticalTimelineElement
                         textClassName="vertical-timeline-element--work"
@@ -63,7 +33,7 @@ const Timeline = ({  }) => {
 
     const lazyLoadItems = () => {
         let newElements = [
-            data.slice(counter, counter + 2).map((item) => {
+            experience.slice(counter, counter + 2).map((item) => {
                 return (
                     <VerticalTimelineElement
                         textClassName="vertical-timeline-element--work"

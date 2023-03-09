@@ -5,54 +5,22 @@ import Particle from "../Particle";
 import Educations from "./Educations";
 import DisplayLottie from "../Lottie/DisplayLottie";
 import edu from "./education.json"
+import EducationLottie from "./EducationLottie";
 class Education extends Component {
 
     render() {
         return (
+            <div>
+
+            <EducationLottie/>
 
             <div className={"project-section"} >
                 <Particle />
-
-                {/*<Row style={{ justifyContent: "center", padding: "10px" }}>*/}
-
-                {/*    <Col*/}
-                {/*        md={5}*/}
-                {/*        style={{*/}
-                {/*            justifyContent: "center",*/}
-                {/*            paddingTop: "30px",*/}
-                {/*            paddingBottom: "50px",*/}
-                {/*        }}*/}
-                {/*    >*/}
-
-
-                {/*        <DisplayLottie animationData={edu} />*/}
-
-                {/*    </Col>*/}
-
-                {/*    <Col*/}
-                {/*        md={2}*/}
-                {/*        style={{*/}
-                {/*            justifyContent: "center",*/}
-                {/*            paddingTop: "30px",*/}
-                {/*            paddingBottom: "50px",*/}
-                {/*        }}*/}
-                {/*    >*/}
-
-
-                {/*        Education*/}
-
-                {/*    </Col>*/}
-
-                {/*</Row>*/}
-
                 <Container>
-
-
-
-
                     <Educations/>
-
                 </Container>
+            </div>
+
             </div>
 
 
